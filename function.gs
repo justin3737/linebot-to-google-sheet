@@ -1,6 +1,7 @@
 /* 程式碼開始 */
 
-var CHANNEL_ACCESS_TOKEN = ""; //Your Line Bot's channel token
+var CHANNEL_ACCESS_TOKEN = ""; //Your Line Bot's channel tokenr
+var spreadSheetID = ""; //Your google sheet's ID 
 var shareTags = ['#好經驗','#好工具','#好趨勢','#好資源','#好活動']; //Your #Tags witch you defined.
 var botName = '';  //Your Bot's name.
 var Wellcome = '你好，你可以輸入:\n ex: '+ botName +';#tags;網址\n\n告訴我你想分享的好東西！\n想知道更多功能請輸入：\n ex:'+ botName +';help';
